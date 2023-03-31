@@ -25,7 +25,9 @@ through the devtool's console.
 
 ## Details
 
-First and foremost, **this mod is open sourced**, as it is licensed under the GPL 3.0. This mod was designed for Cookie Clicker v2.048. The source code is short and has many comments to make it easier to
-understand and modify in the future. In this repository, you will find a folder called "cookieclickersrc". This folder
-has some of the source code of Cookie Clicker (taken directly from <https://orteil.dashnet.org/cookieclicker/>). This
-was used to get an understanding of how the game worked and develop the mod.
+First and foremost, **this mod is open sourced**, as it is licensed under the GPL 3.0. This mod was designed for Cookie Clicker v2.048.
+The source code is short and has many comments to make it easier to understand and modify in the future. In this repository, you will
+find a folder called "cookieclickersrc". This folder has some of the source code of Cookie Clicker (taken directly from
+<https://orteil.dashnet.org/cookieclicker/>). This was used to get an understanding of how the game worked and develop the mod.
+The `.replit` and `replit.nix` files are config files from Replit, the online IDE I used while developing this mod. For all intents and
+purposes, these files should be ignored.
