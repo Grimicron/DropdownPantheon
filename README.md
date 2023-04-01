@@ -12,12 +12,12 @@ This mod can be installed like any other mod, most notably by bookmarklets and t
 
 To install this mod using a bookmarklet, create a bookmark on your browser of choice and paste this in for the URL:
 
-    javascript: Game.LoadMod("https://cdn.jsdelivr.net/gh/Grimicron/DropdownPantheon@main/dist/dist.js");
+    javascript: Game.LoadMod("https://cdn.jsdelivr.net/gh/Grimicron/DropdownPantheon@main/dist/dropdownpantheon.min.js");
 
 To install this mod using Cookie Clicker Mod Manager, go to the extension's options, click on "Register new mod",
 then paste this as its URL (you can give it any name):
 
-    https://cdn.jsdelivr.net/gh/Grimicron/DropdownPantheon@main/dist/dist.js
+    https://cdn.jsdelivr.net/gh/Grimicron/DropdownPantheon@main/dist/dropdownpantheon.min.js
 
 Of course, another option is instead of using Game.LoadMod(), you could use the mod's raw code, which
 can be found in `dist/dist.js`. This could be done either in a bookmarklet once again or manually
