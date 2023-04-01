@@ -3,7 +3,7 @@
 // Called by swap_button to simulate the drag'n'drop
 function swap_god(god_id, slot_id) {
     // Get the minigame object from game context
-    let minigame = Game.Objects["Temple"].minigame;
+    let minigame = Game.Objects.Temple.minigame;
     // From id to data (as if it were our M.dragging)
     let god_data = minigame.godsById[god_id];
     // If the requested swap would change anything
@@ -80,7 +80,7 @@ export default function create_ui() {
     let god_select = document.createElement("select");
     god_select.name = "god_select";
     god_select.id = "god_select";
-    for (const god of Game.Objects["Temple"].minigame.godsById) {
+    for (const god of Game.Objects.Temple.minigame.godsById) {
         let option = document.createElement("option");
         option.text = god.name.split(",")[0];
         option.value = god.id;
